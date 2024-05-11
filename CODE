@@ -1,0 +1,10 @@
+// code : - 
+
+#define led 12 // led wille connected to pin 12
+void setup() {
+pinMode(led,OUTPUT); }
+void loop() {
+digitalWrite(led,HIGH); // turn on led
+delay(1000); //time in millisec 1000=1sec
+digitalWrite(led,LOW); //turn off led
+delay(1000);  }
